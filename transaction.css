@@ -42,7 +42,7 @@ body {
 .right{
     display: flex;
     width: 800px;
-    height: 650px;
+    height: 645px;
     border-radius: 25px;
     justify-content: left;
     align-items: center;
