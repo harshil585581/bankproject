@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Registration</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./Image/online_ve.jpg" alt="image">
+        </div>
+        <div class="right">
+            <form>
+        <h1>Register New user</h1>
+
+                <div class="form-group">
+                    <label for="Vname">User Name:</label>
+                    <input type="text" id="Vname" name="Vname" placeholder="Enter User name" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="Upass">User Password:</label>
+                    <input type="text" id="Upass" name="Upass" placeholder="Enter User Password" >
+                </div>
+    
+                <div class="form-group">
+                    <label id="Stype">Date of birth:</label>
+                    <input type="date" id="Stype" name="Stype" placeholder="Enter date of birth" >
+                </div>
+    
+                <div class="form-group">
+                    <label id="Stype">Account Type:</label>
+                    <select id="acc-type" name="type" required>
+                        <option value="Savings">Savings</option>
+                        <option value="Checking">Checking</option>
+                        <option value="Loan-Account">Loan-Account</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="Vaddr">User Address:</label>
+                    <input type="text" id="Vaddr" name="Vaddr" placeholder="Enter user address">
+                </div>
+    
+                <div class="form-group">
+                    <label id="Sgst">Mobile Number:</label>
+                    <input type="tel" id="Sgst" name="Sgst" placeholder="Enter number" >
+                </div>
+    
+                <div class="form-group">
+                    <label id="Semail">User Email:</label>
+                    <input type="email" id="Semail" name="Semail" placeholder="Enter email address" >
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Register User</button>
+                </div>
+            </form>
+
+        </div>
+       
+    </div>
+</body>
+</html>
